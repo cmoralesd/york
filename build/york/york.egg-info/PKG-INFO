@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: york
+Version: 1.0.0
+Summary: Paquete de pruebas para modelamiento y control del robot YORK
+Maintainer: cmoralesd
+Maintainer-email: ctodo@todo.com
+License: Apache-2.0
