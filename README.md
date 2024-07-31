@@ -22,7 +22,7 @@ Como una autoevaluación de tus conocimientos en la construcción de paquetes en
     frw_joint_velocity = (vr*(a*r2+b*(r1+r2))+r2*vy+vx*(r1+r2))/((r1)**2+2*r1*r2+2*r2**2)
     flw_joint_velocity = (-vr*(a*r2+b*(r1+r2))-r2*vy+vx*(r1+r2))/((r1)**2+2*r1*r2+2*r2**2)
 ```
-2.2. Una vez que tengas el controlador. Agrega el nodo "joy_velocity_publisher" para mover tu robot mediante un joystick. Ajusta las variables de escala de los movimientos, para consiguir movimientos suaves y realistas.   
+2.2. Una vez que tengas el controlador. Agrega el nodo "joy_velocity_publisher" para mover tu robot mediante un joystick. En el controlador creado en el punto 2.1, ajusta las variables de escalamiento para consiguir movimientos suaves y realistas.   
    
 ¡Éxito en la construcción de tu modelo mejorado del robot YORK!   
 
