@@ -7,7 +7,7 @@ El paquete contiene un modelo URDF del robot YORK y un lanzador que permite su v
 Como una autoevaluación de tus conocimientos en la construcción de paquetes en ROS2, intenta realizar las siguientes mejoras que complementarán el modelo actual.
 ### 1. Mejora el modelo
 1.1. Los límites de colisión de cada link, actualmente utilizan archivos mesh con extensión STL, que resultan muy "pesados" para los cálculos de colisión. En el archivo URDF, cambia la geometría de colisión de las ruedas por cilindros de radio 0.0485 metros y longitud 0.04 metros, para hacer más simples los cálculos de colisión en el simulador.   
-1.2. "Enchula" ty robot. Cambia los colores. Agrega algún elemento visual de tu elección sobre el robot. Puede ser una forma simple que represente algún sensor o, mejor aún, un modelo STL del sensor (puedes encontrar muchos en la web). Considera que las dimensiones de archivo STL deben estar en metros.   
+1.2. "Enchula" tu robot. Cambia los colores. Agrega algún elemento visual de tu elección sobre el robot. Puede ser una forma simple que represente algún sensor o, mejor aún, un modelo STL del sensor (puedes encontrar muchos en la web). Considera que las dimensiones de archivo STL deben estar en metros.   
 1.3. Ajusta los movimientos del robot. Cambia el sentido de giro de las ruedas del lado izquierdo. Actualmente, los angulos positivos en las articulaciones del lado izquierdo (flw_joint y blw_joint) mueven la rueda hacia atrás. Haz que se muevan en sentido contrario, cambiando la orientación del eje z en estas articulaciones.   
 
 ### 2. Agrega un controlador
